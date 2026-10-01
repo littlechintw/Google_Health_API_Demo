@@ -1,0 +1,26 @@
+# ── 機密：絕對不能進 git ──────────────────────────────
+# Google OAuth client ID / secret
+client_secret*.json
+# 你的 access / refresh token
+google_tokens.json
+# 環境變數
+.env
+
+# ── 個人健康資料 ──────────────────────────────────────
+output/
+
+# ── Python ────────────────────────────────────────────
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── 編輯器 / 系統 ─────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+.DS_Store
